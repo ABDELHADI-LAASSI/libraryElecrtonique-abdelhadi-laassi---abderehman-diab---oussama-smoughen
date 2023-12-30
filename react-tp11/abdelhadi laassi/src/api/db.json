@@ -1,0 +1,81 @@
+{
+  "formations": [
+    {
+      "id": 101,
+      "titre": "Développement Web Avancé",
+      "domaine": "Informatique",
+      "niveau": "Intermédiaire",
+      "description": "Approfondissement des concepts de développement web moderne avec React et Node.js.",
+      "disponible": "Oui"
+    },
+    {
+      "id": 102,
+      "titre": "Gestion de Projet Agile",
+      "domaine": "Management",
+      "niveau": "Débutant",
+      "description": "Introduction aux méthodologies agiles, principalement Scrum et Kanban.",
+      "disponible": "Non"
+    },
+    {
+      "id": 103,
+      "titre": "Design Graphique pour le Web",
+      "domaine": "Design",
+      "niveau": "Intermédiaire",
+      "description": "Techniques de design graphique appliquées à la création de sites web attractifs.",
+      "disponible": "Oui"
+    }
+  ],
+  "utilisateurs": [
+    {
+      "id": 201,
+      "nom": "Alice Dupont",
+      "role": "Participant",
+      "email": "alice@example.com",
+      "password": "password123",
+      "formationsInscrites": [
+        101
+      ]
+    },
+    {
+      "id": 202,
+      "nom": "Jean Martin",
+      "role": "Formateur",
+      "email": "jean@example.com",
+      "password": "secret456",
+      "formationsEnseignees": [
+        101
+      ]
+    },
+    {
+      "id": 203,
+      "nom": "Marie Curie",
+      "role": "Participant",
+      "email": "marie@example.com",
+      "password": "mysecurepassword",
+      "formationsInscrites": [
+        101
+      ]
+    },
+    {
+      "id": 204,
+      "nom": "Bob Johnson",
+      "role": "Participant",
+      "email": "bob@example.com",
+      "password": "bobspassword",
+      "formationsInscrites": [
+        101
+      ]
+    },
+    {
+      "id": 205,
+      "nom": "Eva Rodriguez",
+      "role": "Formateur",
+      "email": "eva@example.com",
+      "password": "evasecret",
+      "formationsEnseignees": [
+        102,
+        103
+      ]
+    }
+  ]
+}

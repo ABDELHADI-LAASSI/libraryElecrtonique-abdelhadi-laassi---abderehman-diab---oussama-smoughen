@@ -1,0 +1,14 @@
+.login {
+    padding: 20px;
+    background-color: #eee ;
+    width: 350px;
+}
+
+.login div div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.login button {
+    width: 100%;
+}
